@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e465d782a40f884fa750032bc000fc7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - maxHealth: {fileID: 11400000, guid: a69210f35416d524e99b58ee400d89f4, type: 2}
+  - attackDamage: {fileID: 11400000, guid: e6d9500495d10b84db1ed69c3a6d8bee, type: 2}
+  - movementSpeed: {fileID: 11400000, guid: 3e10c04d900a1df45b648fc64b4adb5c, type: 2}
+  - attackSpeed: {fileID: 11400000, guid: d95dbbb17a15ad04594b17dfb7d11df1, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

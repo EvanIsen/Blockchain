@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e465d782a40f884fa750032bc000fc7, type: 3}
+  m_Name: SO_Maokai
+  m_EditorClassIdentifier: 
+  maxHealth:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: a69210f35416d524e99b58ee400d89f4, type: 2}
+  attackDamage:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: e6d9500495d10b84db1ed69c3a6d8bee, type: 2}
+  movementSpeed:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: 3e10c04d900a1df45b648fc64b4adb5c, type: 2}
+  attackSpeed:
+    _useConstant: 0
+    _constantValue: 0
+    _variable: {fileID: 11400000, guid: d95dbbb17a15ad04594b17dfb7d11df1, type: 2}

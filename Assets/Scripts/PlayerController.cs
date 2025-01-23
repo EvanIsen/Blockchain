@@ -14,8 +14,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         if(selectedUnitEvent == null) selectedUnitEvent = new UnityEvent<Vector3>();
-        _cam = Camera.main;
-        
+        _cam = Camera.main;        
     }
     
     // Update is called once per frame

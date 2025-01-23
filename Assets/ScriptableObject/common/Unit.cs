@@ -7,7 +7,6 @@ using UnityEngine;
     {
         public IntReference maxHealth;
         public IntReference attackDamage;
-        public FloatReference movementSpeed;
         public FloatReference attackSpeed;
     }
 

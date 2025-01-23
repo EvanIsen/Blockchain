@@ -1,11 +1,10 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SelectMaokai : MonoBehaviour
+public class SelectUnit : MonoBehaviour
 {
     
-    private Button _selectMaokaiButton;
+    private Button _selectUnitButton;
     public GameObject unit;
     public new Camera camera;
     private PlayerController _player;
@@ -13,13 +12,13 @@ public class SelectMaokai : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
-        _selectMaokaiButton = gameObject.GetComponent<Button>();
+        _selectUnitButton = gameObject.GetComponent<Button>();
         _player = camera.GetComponent<PlayerController>();
     }
 
     void Start()
     {
-        _selectMaokaiButton.onClick.AddListener(() => SetUnit());
+        _selectUnitButton.onClick.AddListener(() => SetUnit());
     }
 
     
@@ -32,7 +31,12 @@ public class SelectMaokai : MonoBehaviour
             _player.selectedUnit = unit;
             _player.hasSelected = true;
         }
-        else if (_player.hasSelected)
+        else if (_player.hasSelected && _player.selectedUnit != unit)
+        {
+            _player.hasSelected = true;
+            _player.selectedUnit = unit;
+        }
+        else
         {
             _player.hasSelected = false;
             _player.selectedUnit = null;

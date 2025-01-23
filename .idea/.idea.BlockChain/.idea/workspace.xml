@@ -5,21 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6fa4a7-482a-464b-9744-d848ac95608a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Editor/ThirdwebManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Editor/ThirdwebManagerEditor.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/NET/Thirdweb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/NET/Thirdweb.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManagerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManagerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/MetaMaskWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/MetaMaskWallet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/WalletConnectWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/WalletConnectWallet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaokaiUnit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaokaiUnit.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feature/IA__Fight",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,9 +66,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -87,9 +76,6 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
-      <option name="runtimes">
-        <list />
-      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -107,13 +93,7 @@
       <workItem from="1737454811415" duration="7991000" />
       <workItem from="1737548070313" duration="7969000" />
       <workItem from="1737636873865" duration="241000" />
-      <workItem from="1737638042511" duration="10668000" />
-      <workItem from="1737711053974" duration="296000" />
-      <workItem from="1737721775830" duration="186000" />
-      <workItem from="1737729113903" duration="1592000" />
-      <workItem from="1737777520880" duration="48000" />
-      <workItem from="1737823146418" duration="236000" />
-      <workItem from="1738049991172" duration="1547000" />
+      <workItem from="1737638042511" duration="9987000" />
     </task>
     <servers />
   </component>

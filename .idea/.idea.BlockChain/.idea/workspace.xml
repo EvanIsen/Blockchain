@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6fa4a7-482a-464b-9744-d848ac95608a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Editor/ThirdwebManagerEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Editor/ThirdwebManagerEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/NET/Thirdweb.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/NET/Thirdweb.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManagerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/ThirdwebManagerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/MetaMaskWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/MetaMaskWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/WalletConnectWallet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Thirdweb/Runtime/Unity/Wallets/Core/WalletConnectWallet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/IA__Fight&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
@@ -65,6 +74,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>
@@ -75,6 +87,9 @@
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
       <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
       <option name="selectedOptions">
         <list />
       </option>

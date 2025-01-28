@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6fa4a7-482a-464b-9744-d848ac95608a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaokaiUnit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MaokaiUnit.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/IA__Fight",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/IA__Fight&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
@@ -93,7 +92,13 @@
       <workItem from="1737454811415" duration="7991000" />
       <workItem from="1737548070313" duration="7969000" />
       <workItem from="1737636873865" duration="241000" />
-      <workItem from="1737638042511" duration="9987000" />
+      <workItem from="1737638042511" duration="10668000" />
+      <workItem from="1737711053974" duration="296000" />
+      <workItem from="1737721775830" duration="186000" />
+      <workItem from="1737729113903" duration="1592000" />
+      <workItem from="1737777520880" duration="48000" />
+      <workItem from="1737823146418" duration="236000" />
+      <workItem from="1738049991172" duration="1547000" />
     </task>
     <servers />
   </component>

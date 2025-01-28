@@ -15,11 +15,11 @@ MonoBehaviour:
   maxHealth:
     _useConstant: 0
     _constantValue: 0
-    _variable: {fileID: 11400000, guid: 08cef6e51ff3e3f4fb168697905e4be0, type: 2}
+    _variable: {fileID: 11400000, guid: 39be05b103c892d44b263c9de2c0367c, type: 2}
   attackDamage:
     _useConstant: 0
     _constantValue: 0
-    _variable: {fileID: 11400000, guid: 14d27cb2b3ec1764299bbc0f6a076b24, type: 2}
+    _variable: {fileID: 11400000, guid: c713500a7ff82614493e2072ee301910, type: 2}
   attackSpeed:
     _useConstant: 0
     _constantValue: 0

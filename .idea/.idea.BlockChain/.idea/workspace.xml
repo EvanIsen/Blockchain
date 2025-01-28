@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6fa4a7-482a-464b-9744-d848ac95608a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Magor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Magor.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.jpg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/SO_Maokai.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/SO_Maokai.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/SO_Skeleton.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/SO_Skeleton.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackDamage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackDamage.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackDamage.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackDamage.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackSpeed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiAttackSpeed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiMaxHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiMaxHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiMaxHealth.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Maokai/MaokaiMaxHealth.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackSpeed.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackSpeed.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonMaxHealth.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonMaxHealth.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonMaxHealth.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonMaxHealth.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +36,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement_V2.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -99,6 +114,7 @@
       <workItem from="1737777520880" duration="48000" />
       <workItem from="1737823146418" duration="236000" />
       <workItem from="1738049991172" duration="1547000" />
+      <workItem from="1738052780056" duration="14684000" />
     </task>
     <servers />
   </component>

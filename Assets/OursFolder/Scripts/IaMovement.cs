@@ -69,6 +69,7 @@ public class IaMovement : MonoBehaviour
     {
         if (!other.CompareTag(tag))
         {
+            
             if(_targetMonster == null)
                 _targetMonster = other.gameObject.GetComponent<UnitScript>();
             _agent.SetDestination(_targetMonster.transform.position);
@@ -89,14 +90,15 @@ public class IaMovement : MonoBehaviour
             _targetMonster.health -= _unit.attackDamage;
             Debug.Log(name + " hp : " + _unit.health);
         }
-
+        yield return new WaitForSeconds(cooldown);
         if (_targetMonster.health > 0)
         {
-            yield return new WaitForSeconds(cooldown);
             Debug.Log("Start coroutine again");
-            StartCoroutine(_attackCoroutine);
+
+            
+            //StartCoroutine(_attackCoroutine);
         }
-        else GetTargetTower();
+        //else GetTargetTower();
        
         
     } 

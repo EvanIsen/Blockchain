@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
-using Unity.VisualScripting;
+using System.Threading;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Serialization;
@@ -26,7 +27,7 @@ public class IaMovement : MonoBehaviour
     
    
     private UnitScript _unit = null;
-    private IEnumerator _attackCoroutine ;
+    private Thread _thread;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -49,7 +50,9 @@ public class IaMovement : MonoBehaviour
         darkTower = GameObject.FindGameObjectWithTag("Enemy_Tower").transform.position;
         GetTargetTower();
         GetAttackSpeed();
+        // StartCoroutine(_attackCoroutine);
 
+        _thread = new Thread(() => Attack(_unit.attackSpeed));
     }
 
     private void GetTargetTower()
@@ -62,45 +65,62 @@ public class IaMovement : MonoBehaviour
     private void GetAttackSpeed()
     {
         _unit = GetComponent<UnitScript>();
-        _attackCoroutine = Attack(_unit.attackSpeed);
+        // _attackCoroutine = Attack(_unit.attackSpeed);
     }
 
-    private void OnTriggerStay(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag(tag))
         {
-            
             if(_targetMonster == null)
                 _targetMonster = other.gameObject.GetComponent<UnitScript>();
             _agent.SetDestination(_targetMonster.transform.position);
-            _agent.stoppingDistance = 1.5f;
-            StartCoroutine(_attackCoroutine);
-            
-            //launch attack
-            //play animation
+            // _agent.stoppingDistance = 1.5f;
+           _thread.Start();
+            _agent.ResetPath();
         }
     }
 
-    private IEnumerator Attack(float cooldown)
-    {
-        
-        if (_targetMonster != null && _unit != null)
-        {
-            Debug.Log(name + " is attacking");
-            _targetMonster.health -= _unit.attackDamage;
-            Debug.Log(name + " hp : " + _unit.health);
-        }
-        yield return new WaitForSeconds(cooldown);
-        if (_targetMonster.health > 0)
-        {
-            Debug.Log("Start coroutine again");
 
-            
-            //StartCoroutine(_attackCoroutine);
+
+    private async void Attack(float cooldown)
+    {
+        try
+        {
+            bool targetStillAlive = true;
+            while (targetStillAlive)
+            {
+                await Task.Delay((int)cooldown * 1000);
+                Debug.Log("is Working");
+                if (_targetMonster != null && _unit != null)
+                {
+                    Debug.Log(name + " is attacking");
+                    _targetMonster.health -= _unit.attackDamage;
+                    Debug.Log(name + " hp : " + _unit.health);
+                }
+
+                
+
+                if (_targetMonster.health <= 0)
+                {
+                    Debug.Log("End");
+                    targetStillAlive = false;
+                }
+
+                if (_unit.health <= 0)
+                {
+                    Destroy(gameObject);
+                }
+            }
+            Debug.Log(name + " Win the fight");
+            GetTargetTower();
+            await Task.Yield();
         }
-        //else GetTargetTower();
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
        
-        
-    } 
-   
+    }
 }

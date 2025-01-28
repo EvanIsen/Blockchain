@@ -20,10 +20,6 @@ MonoBehaviour:
     _useConstant: 0
     _constantValue: 0
     _variable: {fileID: 11400000, guid: e6d9500495d10b84db1ed69c3a6d8bee, type: 2}
-  movementSpeed:
-    _useConstant: 0
-    _constantValue: 0
-    _variable: {fileID: 11400000, guid: 3e10c04d900a1df45b648fc64b4adb5c, type: 2}
   attackSpeed:
     _useConstant: 0
     _constantValue: 0

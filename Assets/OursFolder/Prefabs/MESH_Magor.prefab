@@ -241,16 +241,16 @@ PrefabInstance:
       addedObject: {fileID: 9001235420011813384}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -8697866893415857087}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1135601277660196700}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -1762136051190390363}
+      addedObject: {fileID: -2524255811594110541}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -2524255811594110541}
+      addedObject: {fileID: 7328838697584902827}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879505897351563555}
   m_SourcePrefab: {fileID: 100100000, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
 --- !u!1 &6893866437113265791 stripped
 GameObject:
@@ -279,21 +279,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &-8697866893415857087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6893866437113265791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72b23f1c222804246a91c5a85dc7cd14, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _monsterType: 1
-  side: 0
-  _material: {fileID: 2100000, guid: cc057fbc0de8af643b8063aeaa498b81, type: 2}
 --- !u!65 &1135601277660196700
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -315,7 +300,38 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 7, y: 2, z: 7}
   m_Center: {x: 0, y: 1, z: 0}
---- !u!54 &-1762136051190390363
+--- !u!114 &-2524255811594110541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893866437113265791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a91b954765d64498a78479e2db757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 11400000, guid: 37abd8204d6415340b862ddcb9be2ac4, type: 2}
+  health: 0
+  attackDamage: 0
+  attackSpeed: 0
+--- !u!114 &7328838697584902827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6893866437113265791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01bc3cabfd4f1ad458dd1eb11b0817c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  side: 0
+  ennemy: {fileID: 0}
+  _material: {fileID: 0}
+--- !u!54 &1879505897351563555
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -337,24 +353,8 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-2524255811594110541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6893866437113265791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae5a91b954765d64498a78479e2db757, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  unit: {fileID: 11400000, guid: 37abd8204d6415340b862ddcb9be2ac4, type: 2}
-  health: 0
-  attackDamage: 0
-  attackSpeed: 0

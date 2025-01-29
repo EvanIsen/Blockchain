@@ -3,7 +3,7 @@ using UnityEngine;
 public class UnitScript : MonoBehaviour
 {
     [SerializeField]
-    private Unit unit;
+    public Unit unit;
 
     public float health;
     public float attackDamage;

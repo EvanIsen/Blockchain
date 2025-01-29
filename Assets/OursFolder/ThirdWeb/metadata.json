@@ -1,0 +1,48 @@
+[
+    {
+    "name" : "Gray Tower",
+    "description": "Gray Tower",
+    "external_url" : "https://test.com",
+    "image" : "graytower.png",
+    "edition" : 1,
+    "attributes" : [
+        {
+            "trait_type" : "rarity",
+            "value" : "common"
+        }
+    ],
+    "properties": {
+        "files" : [
+            {
+                "uri" : "GrayTower.png",
+                "type" : "image/graytower.png"
+            }
+        ],
+        "creators" : []
+    },
+    "compiler" : ""
+    },
+    {
+        "name" : "Purple Tower",
+        "description": "Purple Tower",
+        "external_url" : "https://test.com",
+        "image" : "purpletower.png",
+        "edition" : 2,
+        "attributes" : [
+            {
+                "trait_type" : "rarity",
+                "value" : "uncommon"
+            }
+        ],
+        "properties": {
+            "files" : [
+                {
+                    "uri" : "PurpleTower.png",
+                    "type" : "image/purpletower.png"
+                }
+            ],
+            "creators" : []
+        },
+        "compiler" : ""
+        }
+];

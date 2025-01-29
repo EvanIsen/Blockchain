@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Threading;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AI;
@@ -27,7 +26,7 @@ public class IaMovement : MonoBehaviour
     
    
     private UnitScript _unit = null;
-    private Thread _thread;
+    private Task _thread;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -39,10 +38,12 @@ public class IaMovement : MonoBehaviour
         SkinnedMeshRenderer childObject = GetComponentInChildren<SkinnedMeshRenderer>();
         if (side == Side.DarkSide)
         {
+            tag = "DarkMonster";
             copyMaterials = childObject.materials;
             copyMaterials[2] = _material;
             childObject.materials = copyMaterials;
         }
+        
         
         //get objectif position
         _agent = GetComponent<NavMeshAgent>();
@@ -52,7 +53,7 @@ public class IaMovement : MonoBehaviour
         GetAttackSpeed();
         // StartCoroutine(_attackCoroutine);
 
-        _thread = new Thread(() => Attack(_unit.attackSpeed));
+        
     }
 
     private void GetTargetTower()
@@ -76,51 +77,58 @@ public class IaMovement : MonoBehaviour
                 _targetMonster = other.gameObject.GetComponent<UnitScript>();
             _agent.SetDestination(_targetMonster.transform.position);
             // _agent.stoppingDistance = 1.5f;
-           _thread.Start();
+            // _thread = Task.Run(() => Attack(_unit.attackSpeed));
+            bool targetStillAlive = true;
+            while (targetStillAlive)
+            {
+                if (_unit.health <= 0)
+                {
+                    Destroy(gameObject);
+                }
+                else if (_targetMonster.health <= 0)
+                {
+                    Debug.Log("End");
+                    targetStillAlive = false;
+                }
+
+                //await Task.Delay((int)cooldown * 1000);
+
+                if (_targetMonster != null && _unit != null)
+                {
+                    _targetMonster.health -= _unit.attackDamage;
+                }
+            }
             _agent.ResetPath();
         }
     }
 
 
 
-    private async void Attack(float cooldown)
+    private void Attack(float cooldown)
     {
-        try
-        {
-            bool targetStillAlive = true;
+        bool targetStillAlive = true;
             while (targetStillAlive)
             {
-                await Task.Delay((int)cooldown * 1000);
-                Debug.Log("is Working");
-                if (_targetMonster != null && _unit != null)
-                {
-                    Debug.Log(name + " is attacking");
-                    _targetMonster.health -= _unit.attackDamage;
-                    Debug.Log(name + " hp : " + _unit.health);
-                }
-
-                
-
-                if (_targetMonster.health <= 0)
-                {
-                    Debug.Log("End");
-                    targetStillAlive = false;
-                }
-
-                if (_unit.health <= 0)
+                if (_unit.health < 0.1)
                 {
                     Destroy(gameObject);
+                }
+
+                // if (_targetMonster.health <= 0)
+                // {
+                //     Debug.Log("End");
+                //     targetStillAlive = false;
+                // }
+
+                //await Task.Delay((int)cooldown * 1000);
+
+                if (_targetMonster != null && _unit != null)
+                {
+                    _targetMonster.health -= _unit.attackDamage;
                 }
             }
             Debug.Log(name + " Win the fight");
             GetTargetTower();
-            await Task.Yield();
-        }
-        catch (Exception e)
-        {
-            Console.WriteLine(e);
-            throw;
-        }
        
     }
 }

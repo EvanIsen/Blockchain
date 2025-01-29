@@ -7,8 +7,7 @@ using Random = UnityEngine.Random;
 
 public class IA : MonoBehaviour
 {
-    [SerializeField]
-    private Side side;
+    public Side side;
     
     private NavMeshAgent _agent;
     [SerializeField] 

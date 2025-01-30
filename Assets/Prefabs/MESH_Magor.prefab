@@ -156,6 +156,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
+      propertyPath: m_TagString
+      value: DarkMonster
+      objectReference: {fileID: 0}
     - target: {fileID: 1087954008877169831, guid: 00eaeeafb18a07d408d9d43bcff74952, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -332,9 +336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bc3cabfd4f1ad458dd1eb11b0817c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  side: 0
+  side: 1
   ennemy: {fileID: 0}
-  _material: {fileID: 0}
+  _material: {fileID: 2100000, guid: cc057fbc0de8af643b8063aeaa498b81, type: 2}
+  _final_ath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!54 &1879505897351563555
 Rigidbody:
   m_ObjectHideFlags: 0

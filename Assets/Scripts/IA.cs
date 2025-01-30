@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine.AI;
 using UnityEngine;
+using UnityEngine.Events;
 using Random = UnityEngine.Random;
 
 public enum Side
@@ -13,7 +14,7 @@ public enum Side
 public class IA : MonoBehaviour
 {
     [SerializeField]
-    private Side side;
+    public Side side;
     
     private NavMeshAgent _agent;
     [SerializeField] 
@@ -30,11 +31,13 @@ public class IA : MonoBehaviour
     private Animator _animator;
     private Animator _ennemyAnimator;
     
+    public UnityEvent _final_ath;
     void Start()
     {
+        _final_ath = new UnityEvent();
         _agent = GetComponent<NavMeshAgent>();
-        _lightTower = GameObject.FindGameObjectWithTag("Ally_Tower");
-        _darkTower = GameObject.FindGameObjectWithTag("Enemy_Tower");
+        _lightTower = GameObject.Find("Tower");
+        _darkTower = GameObject.Find("Tower (1)");
         _darkTowerPos = _darkTower.transform.position;
         _lightTowerPos = _lightTower.transform.position;
         _darkTower_unit= _darkTower.GetComponent<UnitScript>();
@@ -98,10 +101,6 @@ public class IA : MonoBehaviour
         if (_agent.isStopped || _agent.remainingDistance < 0.5f)
             _animator.SetFloat("Speed",0);
         else _animator.SetFloat("Speed",1);
-        if(_darkTower_unit.health <= 0)
-            Debug.Log("Victory");
-        else if (_lightTower_unit.health <= 0)
-            Debug.Log("Defeat");
     }
 
     private void OnTriggerEnter(Collider other)
@@ -130,7 +129,6 @@ public class IA : MonoBehaviour
             _animator.SetBool("isAttacking",true);
             _animator.SetInteger("AttackCount",attackCount);
             attackCount++;
-            Debug.Log("attackCount : " + attackCount );
             if (attackCount == 4) attackCount = 1;
             ennemy.health -= _unit.attackDamage;
             yield return new WaitForSeconds(cooldown);

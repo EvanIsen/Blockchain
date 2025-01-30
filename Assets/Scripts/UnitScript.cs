@@ -13,9 +13,12 @@ public class UnitScript : MonoBehaviour
 
     private void Awake()
     {
-        health = unit.maxHealth.Value;
-        attackDamage = unit.attackDamage.Value;
-        attackSpeed = unit.attackSpeed.Value;
+        if (unit)
+        {
+            health = unit.maxHealth.Value;
+            attackDamage = unit.attackDamage.Value;
+            attackSpeed = unit.attackSpeed.Value;
+        }
     }
     
 }

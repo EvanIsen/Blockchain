@@ -156,6 +156,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf42e056d60edca40b48c5e86b55281c, type: 3}
+      propertyPath: m_TagString
+      value: DarkMonster
+      objectReference: {fileID: 0}
     - target: {fileID: 1016089423504398195, guid: bf42e056d60edca40b48c5e86b55281c, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -320,9 +324,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01bc3cabfd4f1ad458dd1eb11b0817c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  side: 0
+  side: 1
   ennemy: {fileID: 0}
   _material: {fileID: 2100000, guid: b1e52588abaa69d479fbd3dca754bfa2, type: 2}
+  _final_ath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!54 &-4098755845343821292
 Rigidbody:
   m_ObjectHideFlags: 0

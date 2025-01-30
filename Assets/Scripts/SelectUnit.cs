@@ -19,6 +19,7 @@ public class SelectUnit : MonoBehaviour
     void Start()
     {
         _selectUnitButton.onClick.AddListener(() => SetUnit());
+        Debug.Log(_selectUnitButton.name);
     }
 
     
@@ -30,11 +31,13 @@ public class SelectUnit : MonoBehaviour
         {
             _player.selectedUnit = unit;
             _player.hasSelected = true;
+            Debug.Log(_player.selectedUnit);
         }
         else if (_player.hasSelected && _player.selectedUnit != unit)
         {
-            _player.hasSelected = true;
             _player.selectedUnit = unit;
+            _player.hasSelected = true;
+            Debug.Log(_player.selectedUnit);
         }
         else
         {

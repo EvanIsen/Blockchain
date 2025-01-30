@@ -5,17 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6fa4a7-482a-464b-9744-d848ac95608a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlockChain/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_King_Koni.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_King_Koni.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Sword.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Sword.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/TestMaterial2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Maokai.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Maokai/MaokaiController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Maokai/MaokaiController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Skeleton.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Skeleton/SkeletonController.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Animations/Skeleton/SkeletonController.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni_ennemy.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Fire_Koni_ennemy.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_King_Koni.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_King_Koni.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Sword.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MAT_Sword.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MES_King_Koni.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MES_King_Koni.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MES_King_Koni_Sword.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/MES_King_Koni_Sword.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Characters_Skeleton.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/Materials/UV_Skeleton_Fire.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/TEX_Skeleton.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/TEX_Skeleton.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/TEX_Skeleton_Sword.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/King Koni/TEX_Skeleton_Sword.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Green_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Green_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Leaf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Magor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Magor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Red_Light.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MAT_Red_Light.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/MESH_Magor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Magor/TEX_Magor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Back.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Bande.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Terrain_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Terrain_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Atlas_Ground_NormalMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Atlas_Ground_NormalMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Atlas_Ground_Texture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Atlas_Ground_Texture.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Leaves.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Leaves.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Materials/Tower_Bande_BaseMap.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Materials/Tower_Bande_BaseMap.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Tower_Bande_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Tower_Bande_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Tower_Walls_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 1/Tower_Walls_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Materials/Tower_Walls_BaseMap.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Materials/Tower_Walls_BaseMap.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Tower_Bande_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Tower_Bande_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Tower_Walls_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower 2/Tower_Walls_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Bande_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Bande_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Bande_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Bande_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Walls_MaskMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Walls_MaskMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Walls_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Textures/Tower_Walls_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower1_Bande_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower1_Bande_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower1_Walls_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower1_Walls_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower2_Bande_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower2_Bande_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower2_Walls_MAT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Tower2_Walls_MAT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/Wood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Materials/leaves.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Tower.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/Tower.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/ground.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/ground.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/tree.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Objets/tree.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MESH_Magor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/MES_King_Koni.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Prefabs/tree.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Materials/Custom_ScrollingTex.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Materials/Custom_ScrollingTex.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Materials/Custom_ScrollingTex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Materials/Custom_ScrollingTex.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Mesh/TheRiver.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Mesh/TheRiver.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Prefabs/TheRiver .prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Prefabs/TheRiver .prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Shader/ScrollingTex.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OursFolder/TheRiver/Shader/ScrollingTex.shader.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Map.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Map.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObject/common/Variables/Skeleton/SkeletonAttackDamage.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +149,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/IaMovement_V2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OursFolder/Scripts/IA.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/OursFolder/Scripts/IaMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IA.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -38,18 +159,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/IA__Fight&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/Inte__Animation",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.34f1\Editor\Unity.exe" />
@@ -109,6 +230,7 @@
       <workItem from="1738052780056" duration="14684000" />
       <workItem from="1738136697747" duration="3151000" />
       <workItem from="1738140158345" duration="15419000" />
+      <workItem from="1738240758342" duration="7776000" />
     </task>
     <servers />
   </component>
